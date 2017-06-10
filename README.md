@@ -19,5 +19,8 @@ git commit -m "first commit"
 git remote add origin git@github.com:klebercarvalho/git-test2.git
 
 # enviar minha alterações para o servidor
-git remote add origin git@github.com:klebercarvalho/git-test2.git
+git push -u origin master
+
+# quais arquivos estão prontos para o proximo envio (commit)
+git status
 
